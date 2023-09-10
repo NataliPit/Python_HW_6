@@ -8,7 +8,6 @@
 list = [-5, 9, 0, 3, -1, -2, 1, 4, -2, 10, 2, 0, -9, 8, 10, -9, 0, -5, -5, 7]
 min = int(input('Введите диапазон от: '))
 max = int(input('Введите диапазон до: '))
-list_1 = []
 
 for i in range(len(list)):
     if min <= list[i] <= max:
