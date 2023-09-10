@@ -9,6 +9,21 @@
 a1 = int(input('Введите первый элемент: '))
 d = int(input('Введите разность элементов: '))
 n = int(input('Введите количество элементов: '))
+arr =[]
+arr.append(a1)
 
-for i in range(n):
-    print(a1 + i * d, end = ' ')
+a_next = a1
+i = 1
+while i < n:
+    a_next = a_next + d
+    arr.append(a_next)
+    i +=1
+
+print(arr)
+
+
+
+
+
+# for i in range(n):
+#     print(a1 + i * d, end = ' ')
